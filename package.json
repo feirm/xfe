@@ -1,0 +1,11 @@
+{
+  "name": "xfe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:feirm/xfe.git",
+  "author": "Jack Coble <jack@coble.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.4.1"
+  }
+}
