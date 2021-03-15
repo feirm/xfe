@@ -6,6 +6,7 @@
   "author": "Jack Coble <jack@coble.uk>",
   "license": "MIT",
   "devDependencies": {
-    "@openzeppelin/contracts": "^3.4.1"
+    "@openzeppelin/contracts": "^3.4.1",
+    "@truffle/hdwallet-provider": "^1.2.3"
   }
 }
