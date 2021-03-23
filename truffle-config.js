@@ -25,6 +25,13 @@ const fs = require('fs');
 const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  api_keys: {
+    bscscan: ""
+  },
+
   /**
    * Networks define how you connect to your ethereum client and let you set the
    * defaults web3 uses to send transactions. If you don't specify one truffle
@@ -60,10 +67,10 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: "0.7.2",    // Fetch exact version from solc-bin (default: truffle's version)
+      version: "0.7.6",    // Fetch exact version from solc-bin (default: truffle's version)
       settings: {          // See the solidity docs for advice about optimization and evmVersion
         optimizer: {
-          enabled: false,
+          enabled: true,
           runs: 200
         },
       }
