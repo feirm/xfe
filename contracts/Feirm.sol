@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/math/SafeMath.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Capped.sol";
 import "./Ownable.sol";
 
-contract Feirm is ERC20("Feirm", "XFE"), ERC20Capped(100000000 * 1 ether), Ownable {
+contract Feirm is ERC20("Feirm", "XFE"), ERC20Capped(40000000 * 1 ether), Ownable {
     using SafeMath for uint256;
 
     /// @dev A record of each accounts delegate
